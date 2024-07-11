@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        img{
+            height:15vh;
+            margin-left: 60px;
+         
+        }
+        .main{
+            padding-left: 32.5%;
+        }
+        .maindiv{
+            display: flex;
+            input{
+                height: 20px;
+                background-color:aliceblue;
+                border: none;
+            }
+        }
+        .checkright{
+            margin-left: 40px;
+        }
+        .email{
+            input{
+                height: 20px;
+                background-color:aliceblue;
+                border: none;
+            }
+        }
+        .check{
+            display: flex;
+           
+        }
+        .sname{
+            margin-left: 40px;
+        }
+       
+        button{
+            height: 60px;
+            width: 50%;
+            background-color:coral;
+            border-radius: 5px;
+        }
+        .star i{
+            padding-left: 7px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <img src="IMG_20240711_170647.png" alt="que mira bobo">
+        <br><br><br>
+        <div class="maindiv">
+            <div >
+                <p>FirstName*</p><input type="text">
+            </div>
+            <div class="sname">
+                <p>Last Name*</p><input type="text">
+            </div>
+        </div>
+        <div class="email">
+            <p>Email Address*</p><input type="text">
+        </div>
+        <div class="star">
+            <h4>How was your overall experience?*</h4>
+            <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+            <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+            <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+            <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+            <i class="fa-solid fa-star" style="color: rgba(184, 178, 162, 0.637);"></i>
+        </div>
+        <h4>Was our representative (check all that apply):</h4>
+        <div class="check"> 
+            <div>
+                <input type="checkbox">Professional and courteous?<br><br>
+                <input type="checkbox">Knowledgable?<br><br>
+                <input type="checkbox">Friendly?<br><br>
+                <input type="checkbox">Efficient?
+            </div>
+            <div class="checkright">
+                <input type="checkbox">Patient?<br><br>
+                <input type="checkbox">Warm and respectful?<br><br>
+                <input type="checkbox">Clear and direct?<br><br>
+            </div>
+        </div><br><br><br>
+        <div class="submit">
+            <button>Submit Feedback</button>
+        </div>
+    </div>
+
+    
+</body>
+</html>
